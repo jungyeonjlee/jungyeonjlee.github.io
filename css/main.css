@@ -5,7 +5,31 @@ body {
 }
 
 a {
+  color: #0A0A0A;
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 154%;
+  margin: 0;
   text-decoration: none;
+  transition: 0.15s;
+}
+
+.header {
+  font-size: 0.875rem;
+  font-weight: normal;
+}
+
+.header-static {
+  font-size: 0.875rem;
+  font-weight: normal;
+}
+
+a:hover {
+  color: #0114BF;
+}
+
+.header-static:hover {
+  color: #0A0A0A;
 }
 
 img {
@@ -15,7 +39,7 @@ img {
 /* NAV BAR --------------------------------- */
 
 .block-nav-border {
-  border-top: 1px solid #AAAAAA;
+  border-top: 1px solid #b8b8b8;
 }
 
 /* BIO -------------------------------------- */
@@ -25,7 +49,7 @@ img {
 /* PROJECTS -------------------------- */
 
 .block-projects-border {
-  border-top: 1px solid #AAAAAA;
+  border-top: 1px solid #a1a1a1;
 }
 
 /* FOOTER ----------------------------------- */
