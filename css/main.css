@@ -1,0 +1,66 @@
+body {
+  margin: 30px;
+  background-color: #E8E8E8;
+  font-family: 'Proto Grotesk', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+/* NAV BAR --------------------------------- */
+
+.block-nav-border {
+  border-top: 1px solid #AAAAAA;
+}
+
+/* BIO -------------------------------------- */
+
+
+
+/* PROJECTS -------------------------- */
+
+.block-projects-border {
+  border-top: 1px solid #AAAAAA;
+}
+
+/* FOOTER ----------------------------------- */
+
+/* HEADERS ---------------------------------- */
+
+h1 {
+  font-weight: normal;
+  font-size: 21vw;
+  margin: 0;
+  line-height: 68.5%;
+  color: #0A0A0A;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 92%;
+  letter-spacing: -0.03em;
+  margin: 0;
+  color: #0A0A0A;
+}
+
+h3 {
+  font-size: 0.875rem;
+  font-weight: normal;
+  margin: 0;
+  color: #0A0A0A;
+}
+
+p {
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 154%;
+  margin: 0;
+  color: #0A0A0A;
+  max-width: 75%;
+}
