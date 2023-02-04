@@ -1,7 +1,7 @@
 body {
   margin: 30px;
   background-color: #eeeeee;
-  font-family: 'Proto Grotesk', 'PP Eiko', sans-serif;
+  /* font-family: 'Proto Grotesk', 'PP Eiko', sans-serif; */
 }
 
 a {
@@ -57,6 +57,7 @@ img {
 /* HEADERS ---------------------------------- */
 
 h1 {
+  font-family: 'Proto Grotesk';
   font-size: 21vw;
   margin: 0;
   line-height: 68.5%;
@@ -64,6 +65,7 @@ h1 {
 }
 
 h2 {
+  font-family: 'Proto Grotesk';
   font-size: 3rem;
   font-weight: bold;
   line-height: 92%;
@@ -73,6 +75,7 @@ h2 {
 }
 
 h3 {
+  font-family: 'Proto Grotesk';
   font-size: 0.875rem;
   font-weight: normal;
   margin: 0;
@@ -80,6 +83,7 @@ h3 {
 }
 
 h4 {
+  font-family: 'PP Eiko';
   font-size: 3rem;
   font-weight: 200;
   line-height: 130%;
@@ -89,6 +93,7 @@ h4 {
 }
 
 p {
+  font-family: 'Proto Grotesk';
   font-size: 0.875rem;
   font-weight: 300;
   line-height: 154%;
