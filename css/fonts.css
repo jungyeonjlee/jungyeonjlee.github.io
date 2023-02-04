@@ -26,5 +26,5 @@
 	@font-face {
 		font-family: 'PP Eiko-Thin';
 				src: 
-						url('fonts/PPEiko-Thin.otf?#iefix') format('otf'),
+						url('../fonts/PPEiko-Thin.otf?#iefix') format('otf'),
 		}
