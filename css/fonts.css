@@ -1,30 +1,96 @@
 @font-face {
-	font-family: 'PP Eiko-Thin';
-			src: 
-					url('fonts/PPEiko-Thin.otf?#iefix') format('otf'),
-	}
+  font-family: 'PP Eiko';
+  font-weight: 200;
+  font-style: normal;
+  src:
+    url('../fonts/PPEiko-Thin.otf') format('otf'),
+}
 
 @font-face {
-	font-family: 'protogrotesk-bold';
-			src: 
-					url('fonts/protogroteskweb-bold-TRIAL.eot?#iefix') format('embedded-opentype'),
-					url('fonts/protogroteskweb-bold-TRIAL.woff') format('woff');
-	}
+  font-family: 'PP Eiko';
+  font-weight: 300;
+  font-style: normal;
+  src:
+    url('../fonts/PPEiko-Light.otf') format('otf'),
+}
+
 @font-face {
-	font-family: 'protogrotesk-extralight';
-			src: 
-					url('fonts/protogroteskweb-extralight-TRIAL.eot?#iefix') format('embedded-opentype'),
-					url('fonts/protogroteskweb-extralight-TRIAL.woff') format('woff');
-	}
+  font-family: 'PP Eiko';
+  font-weight: 400;
+  font-style: normal;
+  src:
+    url('../fonts/PPEiko-Regular.otf') format('otf'),
+}
 @font-face {
-	font-family: 'protogrotesk-light';
-			src: 
-					url('fonts/protogroteskweb-light-TRIAL.eot?#iefix') format('embedded-opentype'),
-					url('fonts/protogroteskweb-light-TRIAL.woff') format('woff');
-	}
+  font-family: 'PP Eiko';
+  font-weight: 500;
+  font-style: normal;
+  src:
+    url('../fonts/PPEiko-Medium.otf') format('otf'),
+}
 @font-face {
-	font-family: 'protogrotesk-regular';
-			src: 
-					url('fonts/protogroteskweb-regular-TRIAL.eot?#iefix') format('embedded-opentype'),
-					url('fonts/protogroteskweb-regular-TRIAL.woff') format('woff');
-	}
+  font-family: 'PP Eiko';
+  font-weight: 600;
+  font-style: normal;
+  src:
+    url('../fonts/PPEiko-SemiBold.otf') format('otf'),
+}
+@font-face {
+  font-family: 'PP Eiko';
+  font-weight: 700;
+  font-style: normal;
+  src:
+    url('../fonts/PPEiko-Bold.otf') format('otf'),
+}
+@font-face {
+  font-family: 'PP Eiko';
+  font-weight: 800;
+  font-style: normal;
+  src:
+    url('../fonts/PPEiko-ExtraBold.otf') format('otf'),
+}
+@font-face {
+  font-family: 'PP Eiko';
+  font-weight: 900;
+  font-style: normal;
+  src:
+    url('../fonts/PPEiko-Black.otf') format('otf'),
+}
+@font-face {
+  font-family: 'Proto Grotesk';
+    font-weight: 700;
+  font-style: normal;
+
+  src:
+    url('fonts/protogroteskweb-bold-TRIAL.eot?#iefix') format('embedded-opentype'),
+    url('fonts/protogroteskweb-bold-TRIAL.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Proto Grotesk';
+    font-weight: 200;
+  font-style: normal;
+
+  src:
+    url('fonts/protogroteskweb-extralight-TRIAL.eot?#iefix') format('embedded-opentype'),
+    url('fonts/protogroteskweb-extralight-TRIAL.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Proto Grotesk';
+    font-weight: 300;
+  font-style: normal;
+
+  src:
+    url('fonts/protogroteskweb-light-TRIAL.eot?#iefix') format('embedded-opentype'),
+    url('fonts/protogroteskweb-light-TRIAL.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Proto Grotesk';
+    font-weight: 400;
+  font-style: normal;
+  src:
+    url('fonts/protogroteskweb-regular-TRIAL.eot?#iefix') format('embedded-opentype'),
+    url('fonts/protogroteskweb-regular-TRIAL.woff') format('woff');
+}
