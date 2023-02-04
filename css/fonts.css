@@ -22,3 +22,9 @@
 					url('fonts/protogroteskweb-regular-TRIAL.eot?#iefix') format('embedded-opentype'),
 					url('fonts/protogroteskweb-regular-TRIAL.woff') format('woff');
 	}
+
+	@font-face {
+		font-family: 'PP Eiko-Thin';
+				src: 
+						url('fonts/PPEiko-Thin.otf?#iefix') format('otf'),
+		}
