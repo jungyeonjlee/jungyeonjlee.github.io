@@ -1,7 +1,7 @@
 body {
   margin: 30px;
   background-color: #eeeeee;
-  font-family: 'Proto Grotesk', 'PPEiko', sans-serif;
+  font-family: 'Proto Grotesk', 'PP Eiko', sans-serif;
 
 }
 
@@ -82,7 +82,7 @@ h3 {
 }
 
 h4 {
-  font-family: PP Eiko;
+  font-family: 'PP Eiko';
   font-size: 3rem;
   font-weight: 200;
   line-height: 130%;
