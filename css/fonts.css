@@ -21,6 +21,7 @@
   src:
     url('../fonts/PPEiko-Regular.otf') format('opentype');
 }
+
 @font-face {
   font-family: 'PP Eiko';
   font-weight: 500;
@@ -28,6 +29,7 @@
   src:
     url('../fonts/PPEiko-Medium.otf') format('opentype');
 }
+
 @font-face {
   font-family: 'PP Eiko';
   font-weight: 600;
@@ -35,6 +37,7 @@
   src:
     url('../fonts/PPEiko-SemiBold.otf') format('opentype');
 }
+
 @font-face {
   font-family: 'PP Eiko';
   font-weight: 700;
@@ -42,6 +45,7 @@
   src:
     url('../fonts/PPEiko-Bold.otf') format('opentype');
 }
+
 @font-face {
   font-family: 'PP Eiko';
   font-weight: 800;
@@ -49,6 +53,7 @@
   src:
     url('../fonts/PPEiko-ExtraBold.otf') format('opentype');
 }
+
 @font-face {
   font-family: 'PP Eiko';
   font-weight: 900;
@@ -56,6 +61,15 @@
   src:
     url('../fonts/PPEiko-Black.otf') format('opentype');
 }
+
+@font-face {
+  font-family: 'PP Formula Condensed';
+  font-weight: 200;
+  font-style: normal;
+  src:
+    url('../fonts/PPFormula-CondensedExtralight.otf') format('opentype');
+}
+
 @font-face {
   font-family: 'Proto Grotesk';
     font-weight: 700;

@@ -27,7 +27,7 @@ nav {
   display: flex;
   column-gap: 10px;
   margin-top: 250px;
-  margin-bottom: 125px;
+  margin-bottom: 150px;
 }
 
 
@@ -56,3 +56,9 @@ nav {
 /* FOOTER ----------------------------------- */
 
 /* HEADERS ---------------------------------- */
+
+.block-header {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 0.5rem;
+}
