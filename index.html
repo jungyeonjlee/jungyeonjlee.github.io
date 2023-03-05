@@ -12,12 +12,38 @@
   <link href="css/grids.css" rel="stylesheet">
 
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script > 
+  tailwind.config = {
+    theme: { 
+      extend: {
+        colors:{
+'off-black': '#0A0A0A',
+        }
+      }
+    }
 
+  }   </script> 
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .para{
+        @apply text-base leading-relaxed text-off-black max-w-prose;
+      }
+    }
+
+  </style>
+<style type="text/tailwindcss">
+  @layer utilities {
+    .content-auto {
+      content-visibility: auto;
+    }
+  }
+</style>
 </head>
 
 <body>
 
-  <nav>
+  <nav class="mx-12 my-12">
 
     <div class="container-nav">
       <div class="block-nav">
@@ -53,27 +79,20 @@
 
   </nav>
 
-  <section id="bio">
-    <div class="container-projects">
-      <div class="block-header">
-        <h5></h5>
-      </div>
-    </div>
+  <section id="bio" class="mx-12">
 
-    <div class="container-projects-cta">
-      <div class="block-project">
-        <h4>I'm Jung-yeon — a Multidisciplinary Designer specializing in User Experience Crafting
+      <div class="grid grid-cols-3 gap-x-3">
+        <h4 class="text-4xl leading-snug col-span-2 col-start-2" >I'm Jung-yeon — a Multidisciplinary Designer specializing in User Experience Crafting
            and Visual Storytelling based in the suburbs of Vancouver, BC.</h4>
       </div>
 
 
-    </div>
   </section>
 
-  <section id="aritzia-project">
+  <section class="grid grid-cols-3 mx-12 my-12 gap-x-3">
 
-    <div class="container-projects">
-      <div class="block-project">
+    <div class=" ">
+      <div class="flex-1">
         <h3>Discover Aritzia</h3>
       </div>
 
@@ -86,7 +105,7 @@
       </div>
     </div>
 
-    <div class="container-projects-cta">
+    <div class="col-span-2">
       <div class="block-project">
         <h3>User Experience Design</h3>
       </div>

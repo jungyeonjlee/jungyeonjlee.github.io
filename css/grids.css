@@ -31,7 +31,7 @@ nav {
 }
 
 
-/* PROJECTS -------------------------- */
+ç
 
 #aritzia-project {
   display: flex;
@@ -51,7 +51,25 @@ nav {
   width: 67%;
 }
 
+.span-2{
+  grid-column-end: span 2;
+}
+.span-3{
+  grid-column-end: span 3;
+}
+.span-4{
+  grid-column-end: span 4;
+}
+.main-grid{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+}
+/* PROJECT CONTENT -------------------------------------- */
 
+.container-context {
+  display: flex;
+
+}
 
 /* FOOTER ----------------------------------- */
 
