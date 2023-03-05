@@ -11,17 +11,17 @@
   <link href="../css/main.css" rel="stylesheet">
   <link href="../css/grids.css" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
-  <script > 
-  tailwind.config = {
-    theme: { 
-      extend: {
-        colors:{
-'off-black': '#0A0A0A',
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'off-black': '#0A0A0A',
+          }
         }
       }
-    }
 
-  }   </script> 
+    }   </script>
   <style type="text/tailwindcss">
     @layer utilities {
       .para{
@@ -30,8 +30,8 @@
     }
 
   </style>
-<style type="text/tailwindcss">
-  @layer utilities {
+  <style type="text/tailwindcss">
+    @layer utilities {
     .content-auto {
       content-visibility: auto;
     }
@@ -71,29 +71,30 @@
         </div>
 
         <div class="block-nav-border">
-          <a href="https://gmail.com/">jungyeon.j.lee@gmail.com</a>
-          <a href="https://www.linkedin.com/in/jung-yeon-lee">LinkedIn</a>
-          <a href="https://www.linkedin.com/in/jung-yeon-lee">Resume</a>
+          <a>jungyeon.j.lee@gmail.com</a>
+          <a target="_blank" href="https://www.linkedin.com/in/jung-yeon-lee">LinkedIn</a>
+          <a target="_blank" href="https://www.linkedin.com/in/jung-yeon-lee">Resume</a>
         </div>
       </div>
 
     </nav>
 
   </header>
-  <main class="mx-12">
+  <main class="mx-96">
     <section>
 
       <h2 class="text-5xl">Discover Aritzia</h2>\
       <figure class="w-full min-h-[75vh]">
-      <figcaption>
-        this is the caption
-      </figcaption> </figure>
+        <figcaption>
+          this is the caption
+        </figcaption>
+      </figure>
     </section>
 
     <section>
 
       <div class="grid grid-cols-12">
-        <div class=" col-span-2">
+        <div class=" col-span-3">
           <p class="para">MY ROLE</p>
           <p class="para">User Experience Design</p>
           <p class="para">UI Design</p>
@@ -103,7 +104,7 @@
           <p class="para">CONSTRAINTS</p>
           <p class="para">4 Week Undergrad Project</p>
         </div>
-        <div class="col-start-6 col-span-full">
+        <div class="col-start-7 col-span-full">
           <p class="para">CONTEXT</p>
           <p class="para">Using industry precedent, I was in charge of researching an evidence-based rationale
             and executing visually for our design intervention for design retailer Aritzia.</p>
@@ -111,27 +112,39 @@
       </div>
 
     </section>
-    <section class="flex gap-y-12 flex-col">
 
-      <p class="para">PROBLEM SPACE</p>
-      <h2 class="text-5xl">Customers found it difficult to start building a wardrobe that suits their wants and needs. 
-      </h2>
-      <p class="para" class="row-span-4">I initially recognized the disconnect between the customer and their personal style which allowed me to frame
+    
+
+    <section class="flex gap-y-6 flex-col my-20">
+
+      <div>
+        <p class="para">PROBLEM SPACE</p>
+        <h2 class="text-5xl">Customers found it difficult to start building a wardrobe that suits their wants and needs.
+        </h2>
+      </div>
+      <p class="para" class="row-span-4">I initially recognized the disconnect between the customer and their personal
+        style which allowed me to frame
         the problem as:</p>
-      <h4 class="text-4xl leading-[140%]">“How might we help those struggling to build a wardrobe they are comfortable with in an enjoyable and
-        personalized manner,
-        while allowing customers to feel confident about their style and choices?"</h4>
-<div>
+      <h4 class="text-3xl font-light leading-[140%]">“How might we help those struggling to build a wardrobe they are comfortable
+        with in an enjoyable and personalized manner, while allowing customers to feel confident about their style and choices?”</h4>
 
-  <p class="para" class="font-light">SOLUTION</p>
-  <h2 class="text-5xl">Exploratory vs. Mission based shoppers.</h2>
-</div>
-      <p class="para">What I aim to do with this iteration is to allow exploratory users to discover new items of clothing and feel
+    </section>
+
+
+
+    <section class="flex gap-y-6 flex-col my-20">
+
+      <div>
+      <p class="para" class="font-light">SOLUTION</p>
+      <h2 class="text-5xl">Exploratory vs. Mission based shoppers.</h2>
+      </div>
+      <p class="para">What I aim to do with this iteration is to allow exploratory users to discover new items of
+        clothing and feel
         confident about their choices.
         However, there is also the choice for mission based customers that know what they are looking for to do so
         efficiently.</p>
-      <p class="para">Now you may be asking, where’s the research? <br>
-        Let’s approach the two main themes that were explored:</p>
+      <p class="para">Now you may be asking, where's the research? <br>
+        Let's approach the two main themes that were explored:</p>
 
     </section>
 </body>
