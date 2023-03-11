@@ -30,9 +30,6 @@ nav {
   margin-bottom: 150px;
 }
 
-
-ç
-
 #aritzia-project {
   display: flex;
   column-gap: 10px;
@@ -41,6 +38,13 @@ nav {
 .block-projects-border {
   padding-top: 10px;
   margin-top: 5px;
+}
+
+.block-scribbles-border {
+  display: flex;
+  padding-top: 10px;
+  margin-top: 5px;
+  gap: 10px;
 }
 
 .container-projects {
