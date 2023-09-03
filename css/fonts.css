@@ -1,9 +1,65 @@
 @font-face {
+  font-family: 'ABC Social';
+  font-weight: 200;
+  font-style: normal;
+  src:
+    url('../fonts/ABCSocial-Thin.otf') format('opentype');
+}
+
+@font-face {
   font-family: 'PP Eiko';
   font-weight: 200;
   font-style: normal;
   src:
     url('../fonts/PPEiko-Thin.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'ABC Social';
+  font-weight: 300;
+  font-style: normal;
+  src:
+    url('../fonts/ABCSocial-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'ABC Social';
+  font-weight: 300;
+  font-style: italic;
+  src:
+    url('../fonts/ABCSocial-LightItalic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'ABC Social';
+  font-weight: 400;
+  font-style: normal;
+  src:
+    url('../fonts/ABCSocial-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'ABC Social';
+  font-weight: 400;
+  font-style: italic;
+  src:
+    url('../fonts/ABCSocial-RegularItalic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'ABC Social';
+  font-weight: 500;
+  font-style: italic;
+  src:
+    url('../fonts/ABCSocial-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'ABC Social';
+  font-weight: 600;
+  font-style: italic;
+  src:
+    url('../fonts/ABCSocial-Bold.otf') format('opentype');
 }
 
 @font-face {
@@ -60,51 +116,4 @@
   font-style: normal;
   src:
     url('../fonts/PPEiko-Black.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'PP Formula Condensed';
-  font-weight: 200;
-  font-style: normal;
-  src:
-    url('../fonts/PPFormula-CondensedExtralight.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'Proto Grotesk';
-    font-weight: 700;
-  font-style: normal;
-
-  src:
-    url('../fonts/protogroteskweb-bold-TRIAL.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/protogroteskweb-bold-TRIAL.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Proto Grotesk';
-    font-weight: 200;
-  font-style: normal;
-
-  src:
-    url('../fonts/protogroteskweb-extralight-TRIAL.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/protogroteskweb-extralight-TRIAL.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Proto Grotesk';
-    font-weight: 300;
-  font-style: normal;
-
-  src:
-    url('../fonts/protogroteskweb-light-TRIAL.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/protogroteskweb-light-TRIAL.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Proto Grotesk';
-    font-weight: 400;
-  font-style: normal;
-  src:
-    url('../fonts/protogroteskweb-regular-TRIAL.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/protogroteskweb-regular-TRIAL.woff') format('woff');
 }

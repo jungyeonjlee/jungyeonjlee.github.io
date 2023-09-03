@@ -1,26 +1,5 @@
 /* NAV BAR --------------------------------- */
 
-nav {
-  display: flex;
-  column-gap: 10px;
-}
-
-.container-nav {
-  display: flex;
-  flex-direction: column;
-  width: 33.3%;
-}
-
-.block-nav-border {
-  display: flex;
-  flex-direction: column;
-  padding-top: 10px;
-  margin-top: 5px;
-}
-
-
-
-
 /* BIO -------------------------------------- */
 
 #bio {

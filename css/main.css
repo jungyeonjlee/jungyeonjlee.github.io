@@ -1,36 +1,13 @@
+:root {
+  --off-black: #4d4d4d;
+  --off-white: #F8F8F8;
+  --off-grey: #9C9C9C;
+}
+
 body {
-  margin: 30px;
-  background-color: #f8f8f8;
-  font-family: 'Proto Grotesk', 'PP Eiko', sans-serif;
-
-}
-
-a {
-  color: #0A0A0A;
-  font-size: 0.875rem;
-  font-weight: 300;
-  line-height: 154%;
-  margin: 0;
-  text-decoration: none;
-  transition: 0.15s;
-}
-
-.header {
-  font-size: 0.875rem;
-  font-weight: normal;
-}
-
-.header-static {
-  font-size: 0.875rem;
-  font-weight: normal;
-}
-
-a:hover {
-  color: #0114BF;
-}
-
-.header-static:hover {
-  color: #0A0A0A;
+  display: flex;
+  background-color: #F8F8F8;
+  font-family: 'ABC Social', 'PP Eiko', sans-serif;
 }
 
 img {
@@ -39,75 +16,48 @@ img {
 
 /* NAV BAR --------------------------------- */
 
-.block-nav-border {
-  border-top: 1px solid #c7c7c7;
-}
-
 /* BIO -------------------------------------- */
 
 
 
 /* PROJECTS -------------------------- */
 
-.block-projects-border {
-  border-top: 1px solid #c7c7c7;
-}
-
-.block-scribbles-border {
-  border-top: 1px solid #c7c7c7;
-}
-
 /* FOOTER ----------------------------------- */
 
 /* HEADERS ---------------------------------- */
 
 h1 {
-  font-size: 21vw;
-  margin: 0;
-  line-height: 68.5%;
-  color: #0A0A0A;
+  font-size: 2.3rem;
+  font-weight: 300;
+  line-height: 130%;
+  color: var(--off-black);
 }
 
 h2 {
-  
-  font-size: 3rem;
-  font-weight: 400;
-  line-height: 92%;
-  letter-spacing: -0.03em;
-  margin: 0;
-  color: #0A0A0A;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 130%;
+  color: var(--off-grey);
 }
 
 h3 {
-  font-size: 0.875rem;
-  font-weight: 400;
+  font-size: 1rem;
+  font-weight: 300;
   margin: 0;
-  color: #0A0A0A;
+  color: var(--off-black);
 }
 
 h4 {
   font-family: 'PP Eiko';
-  font-size: 2.3rem;
-  font-weight: 200;
-  line-height: 136%;
-  margin: 0;
-  color: #0A0A0A;
-}
-
-h5 {
-  font-family: 'PP Formula Condensed';
   font-size: 1rem;
-  font-weight: 200;
+  font-weight: 300;
   margin: 0;
-  color: #303030;
+  color: var(--off-grey);
 }
 
 p {
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 300;
-  font-style: normal;
-  line-height: 154%;
-  margin: 0;
-  color: #0A0A0A;
-  max-width: 75%;
+  line-height: 130%;
+  color: var(--off-black);
 }
