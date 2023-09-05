@@ -10,10 +10,6 @@ body {
   font-family: 'ABC Social', 'PP Eiko', sans-serif;
 }
 
-img {
-  width: 100%;
-}
-
 /* NAV BAR --------------------------------- */
 
 /* BIO -------------------------------------- */
@@ -30,21 +26,18 @@ img {
 h1 {
   font-size: 2rem;
   font-weight: 300;
-  line-height: 130%;
   color: var(--off-black);
 }
 
 h2 {
   font-size: 0.875rem;
   font-weight: 300;
-  line-height: 130%;
   color: var(--off-grey);
 }
 
 h3 {
   font-size: 0.875rem;
   font-weight: 300;
-  margin: 0;
   color: var(--off-black);
 }
 
@@ -52,7 +45,6 @@ h4 {
   font-family: 'PP Eiko';
   font-size: 1rem;
   font-weight: 300;
-  margin: 0;
   color: var(--off-grey);
 }
 

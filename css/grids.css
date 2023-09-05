@@ -2,64 +2,8 @@
 
 /* BIO -------------------------------------- */
 
-#bio {
-  display: flex;
-  column-gap: 10px;
-  margin-top: 250px;
-  margin-bottom: 150px;
-}
-
-#aritzia-project {
-  display: flex;
-  column-gap: 10px;
-}
-
-.block-projects-border {
-  padding-top: 10px;
-  margin-top: 5px;
-}
-
-.block-scribbles-border {
-  display: flex;
-  padding-top: 10px;
-  margin-top: 5px;
-  gap: 10px;
-}
-
-.container-projects {
-  width: 33%;
-}
-
-.container-projects-cta {
-  width: 67%;
-}
-
-.span-2{
-  grid-column-end: span 2;
-}
-.span-3{
-  grid-column-end: span 3;
-}
-.span-4{
-  grid-column-end: span 4;
-}
-.main-grid{
-  display: grid;
-  grid-template-columns: repeat(12,1fr);
-}
 /* PROJECT CONTENT -------------------------------------- */
-
-.container-context {
-  display: flex;
-
-}
 
 /* FOOTER ----------------------------------- */
 
 /* HEADERS ---------------------------------- */
-
-.block-header {
-  display: flex;
-  justify-content: flex-end;
-  padding-top: 0.5rem;
-}
