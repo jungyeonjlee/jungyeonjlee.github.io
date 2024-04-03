@@ -1,12 +1,12 @@
 :root {
-  --off-black: #505050;
-  --off-white: #F8F8F8;
-  --off-grey: #9C9C9C;
+  --off-black: #3f3f3f;
+  --off-white: #F5F5F5;
+  --off-grey: #adadad;
 }
 
 body {
   display: flex;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   font-family: 'ABC Social', 'PP Eiko', sans-serif;
 }
 
